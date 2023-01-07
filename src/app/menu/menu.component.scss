@@ -1,0 +1,48 @@
+header {
+    position: absolute;
+    height: 80px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 120px;
+    justify-content: space-between;
+
+
+
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+
+}
+
+a {
+    text-decoration: none;
+    margin-left: 10px;
+    color: rgb(253, 251, 251);
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bolder;
+
+    &:hover{
+        color:rgba(126, 116, 116, 0.6);
+    }
+}
+
+
+.darkLinks a{
+
+   color: black;
+
+    
+
+   &:hover{
+    color: rgba(0, 0, 0, 0.6 );
+}
+}
+
